@@ -4,15 +4,15 @@
 
 .animation-move-up-1
 {
-    animation: animation__move__up 2s ease-out forwards ;
+    animation: animation__move__up 1.8s ease-out forwards ;
 }
 .animation-move-up-2
 {
-    animation: animation__move__up 3.5s ease-out forwards ;
+    animation: animation__move__up 2.4s ease-out forwards ;
 }
 .animation-move-up-3
 {
-    animation: animation__move__up 4.3s ease-out forwards ;
+    animation: animation__move__up 3s ease-out forwards ;
 }
 
 @keyframes animation__move__up {

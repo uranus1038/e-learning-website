@@ -1,6 +1,7 @@
 import {
     Navbar,
     NavbarBrand,
+    DarkThemeToggle, Flowbite,
 } from 'flowbite-react';
 import {
     FaMagnifyingGlass,
@@ -12,8 +13,12 @@ export default function NavbarMain() {
             <NavbarBrand>
                 <FaMagnifyingGlass className=' text-slate-700 text-md' />
             </NavbarBrand>
-            <div className="flex md:order-2">
+            <div className="flex md:order-2 items-center">
+                <Flowbite>
+                    <DarkThemeToggle className='me-5'/>
+                </Flowbite>
                 <FaBarsStaggered className='text-slate-700 text-lg' />
+
             </div>
         </Navbar>
     );
